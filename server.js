@@ -68,7 +68,7 @@ const PORT = process.env.PORT || 3000
 
 
 app.get('/', function (req, res) {
-  res.send('Hello World')
+  res.send('Hello....!!! Welcome to my new Website Page where you can check API by typing website url + /person in url like: https://myapi.com/person')
 })
 
 
