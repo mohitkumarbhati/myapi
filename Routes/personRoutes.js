@@ -63,7 +63,7 @@ router.get('/', async (req,res)=> {
 router.get('/:namefind', async (req,res)=> {
   try{
      const namefind = req.params.namefind // Extract the name from the URL 
-     if(namefind == 'shyam' || namefind == 'karki' || namefind == 'Mohit'){
+     if(namefind == 'shyam' || namefind == 'karki' || namefind == 'Mohit Kumar'){
        const response = await Person.find({name: namefind})
        console.log('response fetched sucessfully.')
        res.status(200).json(response)
