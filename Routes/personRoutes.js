@@ -102,7 +102,6 @@ router.put('/:id', async(req,res)=>{
     }
 })
 
-
 router.delete('/:id', async(req,res)=>{
     try{
         const personId = req.params.id // Extract the id from the URL 
@@ -127,3 +126,4 @@ router.delete('/:id', async(req,res)=>{
 module.exports = router
 
  
+// comment
