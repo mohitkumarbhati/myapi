@@ -104,7 +104,7 @@ app.get('/', function (req, res) {
 const personRoutes = require('./Routes/personRoutes')
 
 // Use the Routers
-app.use('/person', localAuthMiddleware , personRoutes)
+app.use('/person', personRoutes)
 
 app.listen(PORT,()=>{
     console.log('listening on port 3000') }

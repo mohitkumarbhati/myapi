@@ -35,7 +35,7 @@ router.post('/signup', async(req,res)=> {
   })
   
 // Login page
-router.post('/signup', async(req,res)=> {
+router.post('/login', async(req,res)=> {
   try{
     // Extract username and password from request body
     const {username, password} = req.body
